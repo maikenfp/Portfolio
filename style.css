@@ -137,6 +137,79 @@ a {
     line-height: 50px;
 }
 
+/* PORTFOLIO */
+
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    border-top: 1px solid #252934;
+}
+
+.container img {
+    height: 200px;
+    border: 2px solid black;
+}
+
+.container .title {
+    text-align: center;
+    padding: 200px;
+    align-self: center;
+    font-size: 2rem;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    row-gap: 50px;
+    column-gap: 50px;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+}
+
+.box h3 {
+    text-align: center;
+    margin: 0 0 10px 0;
+}
+
+
+
+/* CONTACT */
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    text-align: center;
+    justify-content: center;
+    font-size: 2rem;
+    background-color: #252934;
+    color: white;
+}
+
+
+.contact .title, .contact_links {
+    line-height: 50px;
+    padding: 40px;
+}
+
+.contact img {
+    height: 40px;
+}
+
+.contact_links {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.contact li {
+    margin: 7px 20px;
+}
+
+
 /* CHART */
 
 /* #skills {
@@ -257,70 +330,3 @@ section article.skills div:nth-child(8) span:nth-child(2) {
       opacity: 1;
     }
 } */
-
-/* PORTFOLIO */
-
-.container {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-    border-top: 1px solid #252934;
-}
-
-.container img {
-    height: 200px;
-    border: 2px solid black;
-}
-
-.container .title {
-    text-align: center;
-    padding: 200px;
-    align-self: center;
-    font-size: 2rem;
-}
-
-.wrapper {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    row-gap: 50px;
-    column-gap: 50px;
-    justify-content: space-evenly;
-    margin-bottom: 50px;
-}
-
-
-
-/* CONTACT */
-
-.contact {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-    text-align: center;
-    justify-content: center;
-    font-size: 2rem;
-    background-color: #252934;
-    color: white;
-}
-
-
-.contact .title, .contact_links {
-    line-height: 50px;
-    padding: 40px;
-}
-
-.contact img {
-    height: 40px;
-}
-
-.contact_links {
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    margin: auto;
-}
-
-.contact li {
-    margin: 7px 20px;
-}
